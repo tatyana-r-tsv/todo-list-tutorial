@@ -108,7 +108,7 @@ Just like we did in the previous chapter, when we logged $event, you can do the 
 ```typescript
 changeTitle(inputElementReference) {
   console.log(inputElementReference);
-  this.title = inputElementReference.value;
+  this.title = inputElementReference;
 }
 ```
 
